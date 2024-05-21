@@ -28,6 +28,56 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 - [**Pandas:**](https://pandas.pydata.org/) Employed for efficient data manipulation, enabling the automation to handle product data from an Excel file within the Python environment.
 - [**Excel:**](https://support.microsoft.com/en-us/excel) Product data is stored in an Excel file format, widely-used and accessible for tabular data storage.
 
+## 📝 Installation Instructions
+### 1. Clone the Repository
+```bash
+git clone https://github.com/esperanca-leonardo/quick-form-fill.git
+```
+
+### 2. Navigate to the Project Directory
+```bash
+cd quick-form-fill
+```
+
+### 3. Create and activate a virtual environment
+
+- #### 3.1. First, install the virtualenv library
+    ```bash
+    pip install virtualenv
+    ```
+
+- #### 3.2. Then, create a virtual environment named `venv`
+
+  - ##### Linux or macOS
+      ```bash
+      virtualenv venv
+      ```
+  
+  - ##### Windows
+      ```bash
+      python -m virtualenv venv
+      ```
+
+- #### 3.3. Activate the virtual environment
+    
+    - ##### Linux or macOS
+        ```bash
+        source venv/bin/activate
+        ```
+    
+    - ##### Windows
+        ```bash
+        .\venv\Scripts\activate.bat
+        ```
+
+### 4. Install dependencies
+
+Make sure you have Python and pip installed on your system. Then, install the project dependencies using pip
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Project Dependencies
 This automation depends on two additional projects:
 1. [**Quick Form Fill Backend**](https://github.com/esperanca-leonardo/quick-form-fill-backend)
