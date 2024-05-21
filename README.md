@@ -1,4 +1,4 @@
-# Quick Form Fill
+# ⚡Quick Form Fill
 
 Quick Form Fill is an automation developed in Python that reads a database from an Excel file, opens a browser using Selenium, and automatically registers products. This project aims to save time and reduce errors by automating the product registration form filling process.
 
