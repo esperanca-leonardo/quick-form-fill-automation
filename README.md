@@ -2,6 +2,15 @@
 
 Quick Form Fill is an automation developed in Python that reads a database from an Excel file, opens a browser using Selenium, and automatically registers products. This project aims to save time and reduce errors by automating the product registration form filling process.
 
+## 📑 Table of Contents
+- [Key Features](#-key-features)
+- [Project Dependencies](#project-dependencies)
+
+## 🚀 Key Features
+- 📋 Read product data from an Excel file.
+- 🌐 Open a browser (Chrome, Firefox, etc.) with Selenium.
+- 📝 Automatically fill in product registration forms.
+
 ## Project Dependencies
 This automation depends on two additional projects:
 1. [**Quick Form Fill Backend**](https://github.com/esperanca-leonardo/quick-form-fill-backend)
