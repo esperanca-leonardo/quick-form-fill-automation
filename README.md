@@ -4,14 +4,14 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 ## 📑 Table of Contents
 - [Key Features](#-key-features)
 - [How It Works](#-how-it-works)
-- [Technical Details](#%EF%B8%8F-technical-details)
+- [Technologies Used](#-technologies-used)
 - [Project Dependencies](#project-dependencies)
   
 ## 🚀 Key Features
-- 📋 **Product Data Reading:** The automation is capable of reading product data from an Excel file. 
-- 🌐 **Browser Initialization:** It initiates a web browser (such as Chrome or Firefox) using Selenium. 
-- 📝 **Automatic Form Filling:** The automation automatically fills in the fields of a product registration form. 
-- 🔁 **Process Automation:** By automating the form filling process, it saves time and reduces errors, making the process more efficient and reliable. 
+- **Product Data Reading:** The automation is capable of reading product data from an Excel file. 
+- **Browser Initialization:** It initiates a web browser (such as Chrome or Firefox) using Selenium. 
+- **Automatic Form Filling:** The automation automatically fills in the fields of a product registration form. 
+- **Process Automation:** By automating the form filling process, it saves time and reduces errors, making the process more efficient and reliable. 
 
 ## 💡 How It Works
 1. **Initial Setup:** The automation utilizes Selenium, a web browser automation tool, and pandas, a Python library for data manipulation, to perform tasks.
@@ -23,11 +23,10 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 7. **Completion:** After registering all the products, the browser is closed.
 
 ## 💻 Technologies Used
-- [**Python:**](https://www.python.org/) The automation is developed using Python, a versatile and widely-used programming language known for its simplicity and readability. 
-- [**Selenium:**](https://www.selenium.dev/) Selenium is utilized for browser automation, enabling the script to interact with web elements and simulate user actions such as clicking buttons and filling in forms. 
-- [**Pandas:**](https://pandas.pydata.org/) The Pandas library is employed for data manipulation, allowing the automation to read product data from an Excel file and handle it efficiently within the Python environment. 
-- [**WebDriver (Chrome):**] Chrome WebDriver is used to control the Chrome browser during automation, providing a programmatic interface for interacting with the browser. 
-- [**Excel:**](https://support.microsoft.com/en-us/excel) Product data is stored in an Excel file format, which is a widely-used and accessible format for tabular data storage. 
+- [**Python:**](https://www.python.org/) A versatile and widely-used programming language known for its simplicity and readability. It's used to develop the automation.
+- [**Selenium:**](https://www.selenium.dev/) Utilized for browser automation, enabling interaction with web elements and simulating user actions.
+- [**Pandas:**](https://pandas.pydata.org/) Employed for efficient data manipulation, enabling the automation to handle product data from an Excel file within the Python environment.
+- [**Excel:**](https://support.microsoft.com/en-us/excel) Product data is stored in an Excel file format, widely-used and accessible for tabular data storage.
 
 ## Project Dependencies
 This automation depends on two additional projects:
