@@ -4,7 +4,7 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 
 ## Project Dependencies
 This automation depends on two additional projects:
-1. **Backend Project**: [Quick Form Fill Backend](https://github.com/esperanca-leonardo/quick-form-fill-backend)
+1. [**Quick Form Fill Backend**](https://github.com/esperanca-leonardo/quick-form-fill-backend)
     - This backend project provides the necessary API endpoints and handles the server-side logic required by the automation.
     - Ensure you follow the installation and setup instructions provided in the `README.md` of the backend repository to get it up and running.
 
