@@ -11,6 +11,15 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 - 🌐 Open a browser (Chrome, Firefox, etc.) with Selenium.
 - 📝 Automatically fill in product registration forms.
 
+## 💡 How It Works
+1. **Initial Setup:** The automation utilizes Selenium, a web browser automation tool, and pandas, a Python library for data manipulation, to perform tasks.
+2. **Browser Initialization:** Firstly, the script initiates a web browser (Chrome, in this case) using Selenium's webdriver.
+3. **Accessing the Page:** The browser navigates to the local URL where the product registration form is hosted `http://localhost:3000/`.
+4. **Reading Data:** Product data is read from an Excel file named `data.xlsx` using the pandas library and stored in a DataFrame.
+5. **Product Iteration:** For each row in the DataFrame, the script fills in the fields of the product registration form with the corresponding data.
+6. **Submitting Data:** After filling the fields with the data for each product, the script submits the registration form.
+7. **Completion:** After registering all the products, the browser is closed.
+
 ## Project Dependencies
 This automation depends on two additional projects:
 1. [**Quick Form Fill Backend**](https://github.com/esperanca-leonardo/quick-form-fill-backend)
