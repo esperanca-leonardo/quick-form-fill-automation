@@ -5,6 +5,7 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 ## 📑 Table of Contents
 - [Key Features](#-key-features)
 - [Project Dependencies](#project-dependencies)
+- [How It Works](#-how-it-works)
 
 ## 🚀 Key Features
 - 📋 Read product data from an Excel file.
