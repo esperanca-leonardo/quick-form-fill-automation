@@ -5,8 +5,10 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 - [Key Features](#-key-features)
 - [How It Works](#-how-it-works)
 - [Tools and Technologies Used](#-tools-and-technologies-used)
+- [Prerequisites](#-prerequisites)
+- [Installation Instructions](#-installation-instructions)
 - [Project Dependencies](#project-dependencies)
-  
+
 ## 🚀 Key Features
 - **Product Data Reading:** The automation is capable of reading product data from an Excel file. 
 - **Browser Initialization:** It initiates a web browser (such as Chrome or Firefox) using Selenium. 
