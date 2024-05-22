@@ -5,9 +5,21 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 - [Key Features](#-key-features)
 - [How It Works](#-how-it-works)
 - [Tools and Technologies Used](#-tools-and-technologies-used)
+- [Project Dependencies](#-project-dependencies)
 - [Prerequisites](#-prerequisites)
 - [Installation Instructions](#-installation-instructions)
-- [Project Dependencies](#project-dependencies)
+  - [Clone this Repository](#1-clone-the-repository)
+  - [Navigate to the project directory](#2-navigate-to-the-project-directory)
+  - [Create and activate a virtual environment](#3-create-and-activate-a-virtual-environment)
+    - [First, install the virtualenv library](#31-first-install-the-virtualenv-library)
+    - [Then, create a virtual environment named venv](#32-then-create-a-virtual-environment-named-venv)
+      - [Linux or macOS](#linux-or-macos)
+      - [Windows](#windows) 
+    - [Activate the virtual environment](#33-activate-the-virtual-environment)
+      - [Linux or macOS](#linux-or-macos-1)
+      - [Windows](#windows-1)
+  - [Install dependencies](#4-install-dependencies)
+  - [Run the project](#5-run-the-project)
 
 ## 🚀 Key Features
 - **Product Data Reading:** The automation is capable of reading product data from an Excel file. 
@@ -30,6 +42,18 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 - [**Pandas:**](https://pandas.pydata.org/) Utilized for efficient data manipulation, allowing the automation to manage product data from a Python-based Excel file.
 - [**Excel:**](https://support.microsoft.com/en-us/excel) A common format for storing product data, using Excel files, which are widely accessible and suitable for tabular data storage.
 - [**Time:**](https://docs.python.org/3/library/time.html) The Time module in Python is a powerful tool that provides a wide range of functions to manage time-related tasks efficiently.
+
+## 🔗 Project Dependencies
+This automation depends on two additional projects:
+1. [**Quick Form Fill Backend**](https://github.com/esperanca-leonardo/quick-form-fill-backend)
+    - This backend project provides the necessary API endpoints and handles the server-side logic required by the automation.
+    - Ensure you follow the installation and setup instructions provided in the `README.md` of the backend repository to get it up and running.
+
+2. **Frontend Project**: [Your Frontend Repository](https://github.com/your-username/frontend-repo)
+    - This frontend project provides the user interface where the forms are located and filled by the automation.
+    - Ensure the frontend project is properly set up and running according to its documentation.
+
+Ensure both the backend and frontend projects are running and accessible before using the Quick Form Fill automation.
   
 ## 📋 Prerequisites
 - [**Git:**](https://git-scm.com/) A widely adopted distributed version control system.
@@ -86,17 +110,15 @@ Make sure you have Python and pip installed on your system. Then, install the pr
 pip install -r requirements.txt
 ```
 
-## Project Dependencies
-This automation depends on two additional projects:
-1. [**Quick Form Fill Backend**](https://github.com/esperanca-leonardo/quick-form-fill-backend)
-    - This backend project provides the necessary API endpoints and handles the server-side logic required by the automation.
-    - Ensure you follow the installation and setup instructions provided in the `README.md` of the backend repository to get it up and running.
+### 5. Run the project
 
-2. **Frontend Project**: [Your Frontend Repository](https://github.com/your-username/frontend-repo)
-    - This frontend project provides the user interface where the forms are located and filled by the automation.
-    - Ensure the frontend project is properly set up and running according to its documentation.
+Execute the project using the following command
 
-Ensure both the backend and frontend projects are running and accessible before using the Quick Form Fill automation.
+```bash
+python main.py
+```
+
+
 
 
 https://github.com/esperanca-leonardo/quick-form-fill/assets/110422838/cadec923-7b1e-4e72-9151-306e85ee9f6d
