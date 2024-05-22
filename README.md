@@ -53,7 +53,7 @@ This automation depends on two additional projects:
     - This backend project provides the necessary API endpoints and handles the server-side logic required by the automation.
     - Ensure you follow the installation and setup instructions provided in the `README.md` of the backend repository to get it up and running.
 
-2. **Frontend Project**: [Your Frontend Repository](https://github.com/your-username/frontend-repo)
+2. [**Quick Form Fill Frontend**](https://github.com/esperanca-leonardo/quick-form-fill-frontend)
     - This frontend project provides the user interface where the forms are located and filled by the automation.
     - Ensure the frontend project is properly set up and running according to its documentation.
 
