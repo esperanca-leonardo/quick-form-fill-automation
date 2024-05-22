@@ -27,8 +27,12 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 - [**Selenium:**](https://www.selenium.dev/) Utilized for browser automation, enabling interaction with web elements and simulating user actions.
 - [**Pandas:**](https://pandas.pydata.org/) Employed for efficient data manipulation, enabling the automation to handle product data from an Excel file within the Python environment.
 - [**Excel:**](https://support.microsoft.com/en-us/excel) Product data is stored in an Excel file format, widely-used and accessible for tabular data storage.
+- [**Time:**](https://docs.python.org/3/library/time.html) This module provides various time-related functions.
 
 ## 📋 Prerequisites
+- [**Git:**](https://git-scm.com/) Widely-used distributed version control system.
+- [**Python:**](https://www.python.org/) A powerful, general-purpose programming language.
+- [**Pip:**](https://pip.pypa.io/en/stable/) Package manager for installing and managing Python libraries.
 
 ## 📝 Installation Instructions
 ### 1. Clone the Repository
