@@ -23,16 +23,16 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 7. **Completion:** After registering all the products, the browser is closed.
 
 ## 🔧 Tools and Technologies Used
-- [**Python:**](https://www.python.org/) A versatile and widely-used programming language known for its simplicity and readability. It's used to develop the automation.
-- [**Selenium:**](https://www.selenium.dev/) Utilized for browser automation, enabling interaction with web elements and simulating user actions.
-- [**Pandas:**](https://pandas.pydata.org/) Employed for efficient data manipulation, enabling the automation to handle product data from an Excel file within the Python environment.
-- [**Excel:**](https://support.microsoft.com/en-us/excel) Product data is stored in an Excel file format, widely-used and accessible for tabular data storage.
-- [**Time:**](https://docs.python.org/3/library/time.html) This module provides various time-related functions.
-
+- [**Python:**](https://www.python.org/) A flexible and popular programming language, recognized for its ease and readability. It's utilized for automation development.
+- [**Selenium:**](https://www.selenium.dev/) Implemented for automating web browsers, facilitating interaction with web elements and simulating user activities.
+- [**Pandas:**](https://pandas.pydata.org/) Utilized for efficient data manipulation, allowing the automation to manage product data from a Python-based Excel file.
+- [**Excel:**](https://support.microsoft.com/en-us/excel) A common format for storing product data, using Excel files, which are widely accessible and suitable for tabular data storage.
+- [**Time:**](https://docs.python.org/3/library/time.html) The Time module in Python is a powerful tool that provides a wide range of functions to manage time-related tasks efficiently.
+  
 ## 📋 Prerequisites
-- [**Git:**](https://git-scm.com/) Widely-used distributed version control system.
-- [**Python:**](https://www.python.org/) A powerful, general-purpose programming language.
-- [**Pip:**](https://pip.pypa.io/en/stable/) Package manager for installing and managing Python libraries.
+- [**Git:**](https://git-scm.com/) A widely adopted distributed version control system.
+- [**Python:**](https://www.python.org/) A versatile, multipurpose programming language.
+- [**Pip:**](https://pip.pypa.io/en/stable/) A package manager for installing and handling Python libraries.
 
 ## 📝 Installation Instructions
 ### 1. Clone the Repository
