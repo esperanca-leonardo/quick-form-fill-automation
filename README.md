@@ -8,6 +8,18 @@ Quick Form Fill is an automation developed in Python that reads a database from 
 - [Project Dependencies](#-project-dependencies)
 - [Prerequisites](#-prerequisites)
 - [Installation Instructions](#-installation-instructions)
+  - [Clone this Repository](#1-clone-the-repository)
+  - [Navigate to the project directory](#2-navigate-to-the-project-directory)
+  - [Create and activate a virtual environment](#3-create-and-activate-a-virtual-environment)
+    - [First, install the virtualenv library](#31-first-install-the-virtualenv-library)
+    - [Then, create a virtual environment named venv](#32-then-create-a-virtual-environment-named-venv)
+      - [Linux or macOS](#linux-or-macos)
+      - [Windows](#windows) 
+    - [Activate the virtual environment](#33-activate-the-virtual-environment)
+      - [Linux or macOS](#linux-or-macos-1)
+      - [Windows](#windows-1)
+  - [Install dependencies](#4-install-dependencies)
+  - [Run the project](#5-run-the-project)
 
 ## 🚀 Key Features
 - **Product Data Reading:** The automation is capable of reading product data from an Excel file. 
